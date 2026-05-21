@@ -1,0 +1,75 @@
+# --- Data and large artifacts (not version-controlled) ---
+data/
+figures/
+results/
+DOUBLE-BEHAV data/
+claude_backup/
+
+# --- Scratch / exploratory scripts ---
+_temp_*.py
+_check_*.py
+_test_*.py
+_inspect_*.py
+_diagnose_*.py
+_benchmark_*.py
+_find_*.py
+_list_*.py
+_dp_*.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.Python
+build/
+dist/
+.ipynb_checkpoints/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+.env
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Local editor / tool state ---
+.claude/
+PROJECT_NOTES.md
+CLAUDE.md
+CLAUDE.MD
+
+# --- Binary / model artifacts (if any leak into tracked dirs) ---
+*.pt
+*.pth
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.bin
+*.ap.bin
+*.ap.meta
+*.lf.bin
+*.lf.meta
+
+# --- Office docs (large, often regenerated) ---
+*.pptx
+*.docx
+*.xlsx
+
+# --- Project-specific top-level junk ---
+Claude.docx
+Screenshot*.png
+NETWORK_ANALYSIS_SUMMARY.md

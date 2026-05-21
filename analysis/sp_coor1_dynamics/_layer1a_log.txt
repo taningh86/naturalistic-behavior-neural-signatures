@@ -1,0 +1,144 @@
+
+=== S1 LHA (fed) ===
+  S1_LHA: 36219 bins x 30 units
+    PR     =  24.96  CI [24.05, 25.42]  (3.3s)
+    TwoNN  =   8.27  CI [0.08, 0.10]  (113.9s)
+    CorrDim=   4.11  CI [3.93, 4.19]  (40.6s)
+    Isomap(k=15) = 71  CI [59, 99]  (371.9s)
+      k-sens: k=10:90, k=15:71, k=20:92, k=30:66
+
+=== S1 RSP (fed) ===
+  S1_RSP: 36219 bins x 93 units
+    PR     =  53.56  CI [51.09, 53.98]  (11.5s)
+    TwoNN  =   6.50  CI [0.08, 0.10]  (210.1s)
+    CorrDim=   4.85  CI [4.65, 5.00]  (40.0s)
+    Isomap(k=15) = 73  CI [57, 72]  (330.3s)
+      k-sens: k=10:68, k=15:73, k=20:69, k=30:83
+
+=== S2 LHA (fed) ===
+  S2_LHA: 36219 bins x 32 units
+    PR     =  29.08  CI [28.53, 29.14]  (4.3s)
+    TwoNN  =   8.75  CI [0.08, 0.10]  (125.8s)
+    CorrDim=   3.77  CI [3.64, 3.85]  (33.1s)
+    Isomap(k=15) = 127  CI [99, 135]  (386.1s)
+      k-sens: k=10:129, k=15:127, k=20:96, k=30:131
+
+=== S2 RSP (fed) ===
+  S2_RSP: 36219 bins x 78 units
+    PR     =  48.64  CI [46.70, 48.91]  (9.2s)
+    TwoNN  =   6.32  CI [0.08, 0.10]  (192.7s)
+    CorrDim=   4.78  CI [4.63, 4.99]  (40.3s)
+    Isomap(k=15) = 61  CI [49, 62]  (364.2s)
+      k-sens: k=10:60, k=15:61, k=20:61, k=30:64
+
+=== S3 LHA (fed) ===
+  S3_LHA: 36219 bins x 26 units
+    PR     =  19.47  CI [18.49, 19.95]  (3.1s)
+    TwoNN  =   7.40  CI [0.08, 0.10]  (116.8s)
+    CorrDim=   3.51  CI [3.42, 3.71]  (34.8s)
+    Isomap(k=15) = 24  CI [23, 27]  (362.3s)
+      k-sens: k=10:27, k=15:24, k=20:25, k=30:24
+
+=== S3 RSP (fed) ===
+  S3_RSP: 36219 bins x 65 units
+    PR     =  41.37  CI [39.77, 41.49]  (7.9s)
+    TwoNN  =   6.06  CI [0.08, 0.10]  (172.0s)
+    CorrDim=   4.59  CI [4.43, 4.73]  (43.8s)
+    Isomap(k=15) = 63  CI [54, 71]  (380.0s)
+      k-sens: k=10:55, k=15:63, k=20:64, k=30:66
+
+=== S4 LHA (fed) ===
+  S4_LHA: 36219 bins x 25 units
+    PR     =  23.52  CI [23.03, 23.53]  (2.9s)
+    TwoNN  =   7.45  CI [0.09, 0.10]  (115.3s)
+    CorrDim=   3.17  CI [3.01, 3.21]  (32.9s)
+    Isomap(k=15) = 89  CI [78, 94]  (261.0s)
+      k-sens: k=10:77, k=15:89, k=20:86, k=30:87
+
+=== S4 RSP (fed) ===
+  S4_RSP: 36219 bins x 73 units
+    PR     =  46.81  CI [45.01, 46.93]  (5.8s)
+    TwoNN  =   6.21  CI [0.08, 0.10]  (168.5s)
+    CorrDim=   4.72  CI [4.43, 4.84]  (39.9s)
+    Isomap(k=15) = 77  CI [65, 77]  (371.7s)
+      k-sens: k=10:76, k=15:77, k=20:71, k=30:85
+
+=== S5 LHA (fasted) ===
+  S5_LHA: 36240 bins x 16 units
+    PR     =  14.73  CI [14.06, 14.73]  (1.7s)
+    TwoNN  =   6.59  CI [0.09, 0.11]  (101.6s)
+    CorrDim=   3.23  CI [3.09, 3.33]  (27.5s)
+    Isomap(k=15) = 59  CI [36, 51]  (327.4s)
+      k-sens: k=10:52, k=15:59, k=20:46, k=30:45
+
+=== S5 RSP (fasted) ===
+  S5_RSP: 36240 bins x 59 units
+    PR     =  37.80  CI [36.45, 38.34]  (7.0s)
+    TwoNN  =   6.11  CI [0.08, 0.10]  (160.6s)
+    CorrDim=   4.09  CI [3.91, 4.24]  (33.3s)
+    Isomap(k=15) = 55  CI [54, 66]  (329.1s)
+      k-sens: k=10:62, k=15:55, k=20:59, k=30:64
+
+=== S6 LHA (fasted) ===
+  S6_LHA: 36240 bins x 12 units
+    PR     =  11.51  CI [11.06, 11.51]  (1.4s)
+    TwoNN  =   4.68  CI [0.09, 0.11]  (2005.4s)
+    CorrDim=   2.65  CI [2.56, 2.73]  (24.0s)
+    Isomap(k=15) = 33  CI [28, 35]  (325.3s)
+      k-sens: k=10:28, k=15:33, k=20:32, k=30:30
+
+=== S6 RSP (fasted) ===
+  S6_RSP: 36240 bins x 63 units
+    PR     =  42.35  CI [40.16, 42.63]  (7.6s)
+    TwoNN  =   6.34  CI [0.08, 0.10]  (168.3s)
+    CorrDim=   3.88  CI [3.78, 4.10]  (30.7s)
+    Isomap(k=15) = 77  CI [67, 90]  (316.8s)
+      k-sens: k=10:82, k=15:77, k=20:68, k=30:90
+
+=== S7 LHA (fasted) ===
+  S7_LHA: 36019 bins x 19 units
+    PR     =  16.64  CI [16.11, 16.77]  (2.1s)
+    TwoNN  =   7.07  CI [0.09, 0.11]  (105.1s)
+    CorrDim=   2.93  CI [2.79, 2.93]  (25.5s)
+    Isomap(k=15) = 45  CI [38, 56]  (328.4s)
+      k-sens: k=10:48, k=15:45, k=20:45, k=30:41
+
+=== S7 RSP (fasted) ===
+  S7_RSP: 36019 bins x 50 units
+    PR     =  34.35  CI [32.75, 34.66]  (5.5s)
+    TwoNN  =   5.89  CI [0.08, 0.10]  (149.3s)
+    CorrDim=   4.51  CI [4.30, 4.61]  (30.5s)
+    Isomap(k=15) = 50  CI [47, 62]  (316.9s)
+      k-sens: k=10:54, k=15:50, k=20:49, k=30:53
+
+=== S8 LHA (fasted) ===
+  S8_LHA: 36219 bins x 19 units
+    PR     =  16.68  CI [16.36, 16.81]  (2.2s)
+    TwoNN  =   6.58  CI [0.09, 0.10]  (106.0s)
+    CorrDim=   2.76  CI [2.67, 2.83]  (26.1s)
+    Isomap(k=15) = 54  CI [51, 61]  (330.7s)
+      k-sens: k=10:62, k=15:54, k=20:57, k=30:54
+
+=== S8 RSP (fasted) ===
+  S8_RSP: 36219 bins x 45 units
+    PR     =  30.99  CI [29.52, 31.15]  (5.4s)
+    TwoNN  =   5.80  CI [0.08, 0.10]  (143.8s)
+    CorrDim=   3.90  CI [3.67, 4.04]  (28.8s)
+    Isomap(k=15) = 47  CI [45, 58]  (323.7s)
+      k-sens: k=10:54, k=15:47, k=20:49, k=30:52
+
+Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\manifold_layer1a.csv
+Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\manifold_layer1a.json
+Traceback (most recent call last):
+  File "H:\NPX ANALYSIS REPO\analysis\sp_coor1_dynamics\sp_manifold_layer1a.py", line 348, in <module>
+    main()
+  File "H:\NPX ANALYSIS REPO\analysis\sp_coor1_dynamics\sp_manifold_layer1a.py", line 293, in main
+    make_summary_figure(df)
+  File "H:\NPX ANALYSIS REPO\analysis\sp_coor1_dynamics\sp_manifold_layer1a.py", line 315, in make_summary_figure
+    ax.errorbar(row["session"], v, yerr=yerr,
+  File "C:\Users\Gregg\anaconda3\envs\si_env\Lib\site-packages\matplotlib\__init__.py", line 1473, in inner
+    return func(
+           ^^^^^
+  File "C:\Users\Gregg\anaconda3\envs\si_env\Lib\site-packages\matplotlib\axes\_axes.py", line 3743, in errorbar
+    raise ValueError(
+ValueError: 'yerr' must not contain negative values

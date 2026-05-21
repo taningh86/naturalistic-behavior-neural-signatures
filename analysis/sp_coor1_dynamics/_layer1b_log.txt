@@ -1,0 +1,260 @@
+K_PCS = {'LHA': 5, 'RSP': 10}
+
+  S1_LHA: 36219 bins x 30 units, K=5
+    PCA K=5: 28.6% variance explained
+    Maxmin subsample (600): 0.8s
+    Rips H0..H2: 24.9s
+      H0: n=599, max=3.675, total=1300.425, top3=[3.675, 3.151, 3.123]
+      H1: n=736, max=1.316, total=195.768, top3=[1.316, 0.994, 0.878]
+      H2: n=455, max=0.592, total=69.484, top3=[0.592, 0.550, 0.521]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=3.675 vs null=2.823+/-0.176 (p=0.000)  total data=1300.425 vs null=1012.960+/-9.482 (p=0.000)
+      H1 null: max_pers data=1.316 vs null=0.824+/-0.205 (p=0.067)  total data=195.768 vs null=159.239+/-4.908 (p=0.000)
+      H2 null: max_pers data=0.592 vs null=0.463+/-0.025 (p=0.000)  total data=69.484 vs null=71.205+/-2.690 (p=0.800)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S1_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S1_LHA_layer1b.json
+    [S1_LHA] elapsed 7.2 min
+
+  S1_RSP: 36219 bins x 93 units, K=10
+    PCA K=10: 32.8% variance explained
+    Maxmin subsample (600): 2.0s
+    Rips H0..H2: 29.6s
+      H0: n=599, max=7.805, total=2834.235, top3=[7.805, 6.805, 6.389]
+      H1: n=880, max=1.511, total=342.221, top3=[1.511, 1.362, 1.356]
+      H2: n=759, max=1.028, total=175.456, top3=[1.028, 0.886, 0.860]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=7.805 vs null=5.085+/-0.396 (p=0.000)  total data=2834.235 vs null=2120.852+/-13.619 (p=0.000)
+      H1 null: max_pers data=1.511 vs null=0.997+/-0.085 (p=0.000)  total data=342.221 vs null=311.470+/-8.514 (p=0.000)
+      H2 null: max_pers data=1.028 vs null=0.618+/-0.045 (p=0.000)  total data=175.456 vs null=248.842+/-16.559 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S1_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S1_RSP_layer1b.json
+    [S1_RSP] elapsed 9.7 min
+
+  S2_LHA: 36219 bins x 32 units, K=5
+    PCA K=5: 23.8% variance explained
+    Maxmin subsample (600): 1.3s
+    Rips H0..H2: 28.8s
+      H0: n=599, max=4.147, total=1279.513, top3=[4.147, 3.641, 3.412]
+      H1: n=740, max=1.191, total=196.863, top3=[1.191, 0.898, 0.833]
+      H2: n=477, max=0.632, total=76.837, top3=[0.632, 0.522, 0.520]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=4.147 vs null=2.865+/-0.291 (p=0.000)  total data=1279.513 vs null=1019.915+/-8.987 (p=0.000)
+      H1 null: max_pers data=1.191 vs null=0.732+/-0.108 (p=0.000)  total data=196.863 vs null=158.492+/-6.022 (p=0.000)
+      H2 null: max_pers data=0.632 vs null=0.483+/-0.039 (p=0.000)  total data=76.837 vs null=73.538+/-2.934 (p=0.133)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S2_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S2_LHA_layer1b.json
+    [S2_LHA] elapsed 7.9 min
+
+  S2_RSP: 36219 bins x 78 units, K=10
+    PCA K=10: 33.8% variance explained
+    Maxmin subsample (600): 1.9s
+    Rips H0..H2: 31.4s
+      H0: n=599, max=7.307, total=2768.207, top3=[7.307, 7.042, 6.821]
+      H1: n=833, max=1.565, total=341.075, top3=[1.565, 1.381, 1.322]
+      H2: n=713, max=0.837, total=148.846, top3=[0.837, 0.791, 0.785]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=7.307 vs null=5.482+/-0.399 (p=0.000)  total data=2768.207 vs null=2140.445+/-10.869 (p=0.000)
+      H1 null: max_pers data=1.565 vs null=1.014+/-0.082 (p=0.000)  total data=341.075 vs null=296.885+/-9.899 (p=0.000)
+      H2 null: max_pers data=0.837 vs null=0.649+/-0.074 (p=0.000)  total data=148.846 vs null=220.050+/-9.491 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S2_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S2_RSP_layer1b.json
+    [S2_RSP] elapsed 9.4 min
+
+  S3_LHA: 36219 bins x 26 units, K=5
+    PCA K=5: 35.2% variance explained
+    Maxmin subsample (600): 1.4s
+    Rips H0..H2: 29.8s
+      H0: n=599, max=3.888, total=1166.911, top3=[3.888, 3.795, 3.291]
+      H1: n=673, max=0.958, total=162.083, top3=[0.958, 0.877, 0.836]
+      H2: n=388, max=0.539, total=55.295, top3=[0.539, 0.487, 0.467]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=3.888 vs null=2.942+/-0.275 (p=0.000)  total data=1166.911 vs null=985.805+/-21.614 (p=0.000)
+      H1 null: max_pers data=0.958 vs null=0.820+/-0.295 (p=0.067)  total data=162.083 vs null=150.894+/-5.337 (p=0.000)
+      H2 null: max_pers data=0.539 vs null=0.437+/-0.031 (p=0.000)  total data=55.295 vs null=64.486+/-3.468 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S3_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S3_LHA_layer1b.json
+    [S3_LHA] elapsed 7.7 min
+
+  S3_RSP: 36219 bins x 65 units, K=10
+    PCA K=10: 37.5% variance explained
+    Maxmin subsample (600): 1.8s
+    Rips H0..H2: 31.2s
+      H0: n=599, max=7.728, total=2567.062, top3=[7.728, 7.447, 6.814]
+      H1: n=825, max=2.443, total=314.243, top3=[2.443, 1.698, 1.577]
+      H2: n=719, max=0.749, total=149.864, top3=[0.749, 0.748, 0.733]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=7.728 vs null=5.652+/-0.451 (p=0.000)  total data=2567.062 vs null=2135.321+/-14.310 (p=0.000)
+      H1 null: max_pers data=2.443 vs null=1.169+/-0.208 (p=0.000)  total data=314.243 vs null=288.194+/-10.156 (p=0.000)
+      H2 null: max_pers data=0.749 vs null=0.613+/-0.057 (p=0.067)  total data=149.864 vs null=210.541+/-10.952 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S3_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S3_RSP_layer1b.json
+    [S3_RSP] elapsed 9.4 min
+
+  S4_LHA: 36219 bins x 25 units, K=5
+    PCA K=5: 27.3% variance explained
+    Maxmin subsample (600): 1.3s
+    Rips H0..H2: 28.7s
+      H0: n=599, max=3.344, total=1269.149, top3=[3.344, 3.235, 3.178]
+      H1: n=685, max=0.996, total=181.545, top3=[0.996, 0.950, 0.917]
+      H2: n=442, max=0.558, total=69.279, top3=[0.558, 0.553, 0.512]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=3.344 vs null=3.619+/-0.516 (p=0.600)  total data=1269.149 vs null=1068.831+/-12.842 (p=0.000)
+      H1 null: max_pers data=0.996 vs null=0.829+/-0.122 (p=0.133)  total data=181.545 vs null=159.751+/-5.032 (p=0.000)
+      H2 null: max_pers data=0.558 vs null=0.482+/-0.036 (p=0.000)  total data=69.279 vs null=64.829+/-3.475 (p=0.067)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S4_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S4_LHA_layer1b.json
+    [S4_LHA] elapsed 8.7 min
+
+  S4_RSP: 36219 bins x 73 units, K=10
+    PCA K=10: 35.1% variance explained
+    Maxmin subsample (600): 1.9s
+    Rips H0..H2: 30.3s
+      H0: n=599, max=8.509, total=2716.888, top3=[8.509, 8.110, 6.431]
+      H1: n=838, max=2.352, total=328.690, top3=[2.352, 1.737, 1.736]
+      H2: n=736, max=0.797, total=153.586, top3=[0.797, 0.788, 0.768]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=8.509 vs null=5.388+/-0.348 (p=0.000)  total data=2716.888 vs null=2127.759+/-12.354 (p=0.000)
+      H1 null: max_pers data=2.352 vs null=1.121+/-0.223 (p=0.000)  total data=328.690 vs null=290.472+/-8.028 (p=0.000)
+      H2 null: max_pers data=0.797 vs null=0.637+/-0.048 (p=0.000)  total data=153.586 vs null=215.769+/-8.767 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S4_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S4_RSP_layer1b.json
+    [S4_RSP] elapsed 9.5 min
+
+  S5_LHA: 36240 bins x 16 units, K=5
+    PCA K=5: 41.9% variance explained
+    Maxmin subsample (600): 1.4s
+    Rips H0..H2: 28.0s
+      H0: n=599, max=3.893, total=1184.464, top3=[3.893, 3.146, 3.106]
+      H1: n=729, max=1.041, total=180.741, top3=[1.041, 0.858, 0.836]
+      H2: n=531, max=0.525, total=71.511, top3=[0.525, 0.481, 0.451]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=3.893 vs null=2.942+/-0.210 (p=0.000)  total data=1184.464 vs null=1023.405+/-11.081 (p=0.000)
+      H1 null: max_pers data=1.041 vs null=0.810+/-0.143 (p=0.133)  total data=180.741 vs null=156.937+/-5.992 (p=0.000)
+      H2 null: max_pers data=0.525 vs null=0.453+/-0.030 (p=0.000)  total data=71.511 vs null=67.294+/-3.330 (p=0.133)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S5_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S5_LHA_layer1b.json
+    [S5_LHA] elapsed 7.7 min
+
+  S5_RSP: 36240 bins x 59 units, K=10
+    PCA K=10: 37.7% variance explained
+    Maxmin subsample (600): 2.0s
+    Rips H0..H2: 33.4s
+      H0: n=599, max=8.850, total=2634.136, top3=[8.850, 6.782, 6.173]
+      H1: n=853, max=1.480, total=313.109, top3=[1.480, 1.461, 1.460]
+      H2: n=727, max=0.871, total=136.831, top3=[0.871, 0.737, 0.707]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=8.850 vs null=5.690+/-0.557 (p=0.000)  total data=2634.136 vs null=2152.140+/-12.086 (p=0.000)
+      H1 null: max_pers data=1.480 vs null=1.106+/-0.136 (p=0.000)  total data=313.109 vs null=288.741+/-10.132 (p=0.000)
+      H2 null: max_pers data=0.871 vs null=0.628+/-0.037 (p=0.000)  total data=136.831 vs null=205.896+/-15.514 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S5_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S5_RSP_layer1b.json
+    [S5_RSP] elapsed 9.3 min
+
+  S6_LHA: 36240 bins x 12 units, K=5
+    PCA K=5: 49.1% variance explained
+    Maxmin subsample (600): 1.5s
+    Rips H0..H2: 39.9s
+      H0: n=599, max=3.352, total=1099.367, top3=[3.352, 3.300, 3.144]
+      H1: n=669, max=0.765, total=156.928, top3=[0.765, 0.718, 0.710]
+      H2: n=379, max=0.470, total=49.006, top3=[0.470, 0.438, 0.437]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=3.352 vs null=3.489+/-0.405 (p=0.600)  total data=1099.367 vs null=1011.517+/-14.296 (p=0.000)
+      H1 null: max_pers data=0.765 vs null=0.975+/-0.193 (p=0.867)  total data=156.928 vs null=143.078+/-4.908 (p=0.000)
+      H2 null: max_pers data=0.470 vs null=0.457+/-0.054 (p=0.333)  total data=49.006 vs null=48.691+/-3.154 (p=0.400)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S6_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S6_LHA_layer1b.json
+    [S6_LHA] elapsed 8.7 min
+
+  S6_RSP: 36240 bins x 63 units, K=10
+    PCA K=10: 34.3% variance explained
+    Maxmin subsample (600): 2.0s
+    Rips H0..H2: 33.3s
+      H0: n=599, max=7.261, total=2778.611, top3=[7.261, 6.990, 6.955]
+      H1: n=832, max=1.469, total=315.426, top3=[1.469, 1.456, 1.252]
+      H2: n=742, max=0.874, total=161.012, top3=[0.874, 0.825, 0.819]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=7.261 vs null=5.990+/-0.665 (p=0.067)  total data=2778.611 vs null=2152.961+/-14.713 (p=0.000)
+      H1 null: max_pers data=1.469 vs null=1.350+/-0.429 (p=0.333)  total data=315.426 vs null=286.999+/-10.198 (p=0.000)
+      H2 null: max_pers data=0.874 vs null=0.645+/-0.067 (p=0.000)  total data=161.012 vs null=208.052+/-12.677 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S6_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S6_RSP_layer1b.json
+    [S6_RSP] elapsed 10.1 min
+
+  S7_LHA: 36019 bins x 19 units, K=5
+    PCA K=5: 39.2% variance explained
+    Maxmin subsample (600): 1.3s
+    Rips H0..H2: 30.4s
+      H0: n=599, max=3.860, total=1167.710, top3=[3.860, 3.736, 3.411]
+      H1: n=650, max=1.267, total=162.265, top3=[1.267, 0.833, 0.824]
+      H2: n=345, max=0.624, total=50.463, top3=[0.624, 0.601, 0.551]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=3.860 vs null=3.054+/-0.443 (p=0.067)  total data=1167.710 vs null=971.775+/-12.972 (p=0.000)
+      H1 null: max_pers data=1.267 vs null=0.888+/-0.171 (p=0.067)  total data=162.265 vs null=146.407+/-4.514 (p=0.000)
+      H2 null: max_pers data=0.624 vs null=0.464+/-0.056 (p=0.000)  total data=50.463 vs null=51.270+/-2.629 (p=0.667)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S7_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S7_LHA_layer1b.json
+    [S7_LHA] elapsed 8.2 min
+
+  S7_RSP: 36019 bins x 50 units, K=10
+    PCA K=10: 41.4% variance explained
+    Maxmin subsample (600): 2.1s
+    Rips H0..H2: 35.0s
+      H0: n=599, max=5.857, total=2370.794, top3=[5.857, 5.559, 5.492]
+      H1: n=830, max=1.268, total=276.237, top3=[1.268, 1.077, 1.070]
+      H2: n=632, max=0.789, total=116.439, top3=[0.789, 0.766, 0.691]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=5.857 vs null=5.381+/-0.339 (p=0.133)  total data=2370.794 vs null=2117.753+/-10.151 (p=0.000)
+      H1 null: max_pers data=1.268 vs null=1.078+/-0.170 (p=0.200)  total data=276.237 vs null=281.854+/-10.929 (p=0.667)
+      H2 null: max_pers data=0.789 vs null=0.622+/-0.041 (p=0.000)  total data=116.439 vs null=193.110+/-11.765 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S7_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S7_RSP_layer1b.json
+    [S7_RSP] elapsed 9.8 min
+
+  S8_LHA: 36219 bins x 19 units, K=5
+    PCA K=5: 38.4% variance explained
+    Maxmin subsample (600): 1.6s
+    Rips H0..H2: 30.6s
+      H0: n=599, max=4.659, total=1199.794, top3=[4.659, 3.246, 2.973]
+      H1: n=674, max=1.410, total=169.265, top3=[1.410, 0.877, 0.875]
+      H2: n=412, max=0.530, total=62.157, top3=[0.530, 0.454, 0.438]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=4.659 vs null=4.478+/-0.601 (p=0.267)  total data=1199.794 vs null=998.769+/-7.996 (p=0.000)
+      H1 null: max_pers data=1.410 vs null=0.798+/-0.086 (p=0.000)  total data=169.265 vs null=149.334+/-3.617 (p=0.000)
+      H2 null: max_pers data=0.530 vs null=0.460+/-0.030 (p=0.000)  total data=62.157 vs null=60.542+/-4.111 (p=0.267)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S8_LHA_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S8_LHA_layer1b.json
+    [S8_LHA] elapsed 9.2 min
+
+  S8_RSP: 36219 bins x 45 units, K=10
+    PCA K=10: 42.4% variance explained
+    Maxmin subsample (600): 2.1s
+    Rips H0..H2: 33.7s
+      H0: n=599, max=7.461, total=2502.733, top3=[7.461, 6.439, 5.725]
+      H1: n=808, max=1.700, total=290.113, top3=[1.700, 1.700, 1.618]
+      H2: n=684, max=0.790, total=140.519, top3=[0.790, 0.754, 0.710]
+    Null: 15 circular-shift shuffles
+      H0 null: max_pers data=7.461 vs null=5.501+/-0.372 (p=0.000)  total data=2502.733 vs null=2147.664+/-12.116 (p=0.000)
+      H1 null: max_pers data=1.700 vs null=1.274+/-0.378 (p=0.067)  total data=290.113 vs null=278.546+/-12.865 (p=0.200)
+      H2 null: max_pers data=0.790 vs null=0.631+/-0.056 (p=0.067)  total data=140.519 vs null=180.930+/-12.039 (p=1.000)
+    Saved H:\NPX ANALYSIS REPO\figures\sp_coor1_dynamics\S8_RSP_persistent_homology.png
+    Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\S8_RSP_layer1b.json
+    [S8_RSP] elapsed 9.6 min
+
+Saved H:\NPX ANALYSIS REPO\data\sp_coor1_dynamics\manifold_layer1b.csv
+ session  state region  n_units  K_pcs  H1_max_pers  H1_max_pers_null_mean  H1_max_pers_p  H2_max_pers  H2_max_pers_p
+       1    fed    LHA       30      5     1.315509               0.823552       0.066667     0.591522       0.000000
+       1    fed    RSP       93     10     1.511384               0.997181       0.000000     1.028178       0.000000
+       2    fed    LHA       32      5     1.190952               0.731873       0.000000     0.631643       0.000000
+       2    fed    RSP       78     10     1.564511               1.014344       0.000000     0.837317       0.000000
+       3    fed    LHA       26      5     0.957940               0.819523       0.066667     0.539359       0.000000
+       3    fed    RSP       65     10     2.442803               1.168789       0.000000     0.749200       0.066667
+       4    fed    LHA       25      5     0.996378               0.829072       0.133333     0.558300       0.000000
+       4    fed    RSP       73     10     2.352250               1.120552       0.000000     0.797353       0.000000
+       5 fasted    LHA       16      5     1.041287               0.810396       0.133333     0.524843       0.000000
+       5 fasted    RSP       59     10     1.480043               1.105668       0.000000     0.871301       0.000000
+       6 fasted    LHA       12      5     0.765209               0.975024       0.866667     0.470014       0.333333
+       6 fasted    RSP       63     10     1.469433               1.349533       0.333333     0.874198       0.000000
+       7 fasted    LHA       19      5     1.266511               0.888367       0.066667     0.624177       0.000000
+       7 fasted    RSP       50     10     1.268231               1.077530       0.200000     0.789485       0.000000
+       8 fasted    LHA       19      5     1.410185               0.797624       0.000000     0.530483       0.000000
+       8 fasted    RSP       45     10     1.700493               1.274283       0.066667     0.789693       0.066667

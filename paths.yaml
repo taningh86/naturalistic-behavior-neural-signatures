@@ -1,0 +1,446 @@
+# =============================================================================
+# Neuropixels Foraging Project — Data Path Manifest
+# =============================================================================
+# All paths use forward slashes for cross-platform compatibility.
+# Load with: yaml.safe_load(open("config/paths.yaml"))
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# SINGLE PROBE: One Neuropixels 2.0 probe targeting LHA+RSP
+# -----------------------------------------------------------------------------
+single_probe:
+  coordinates_1:
+    mouse01:
+      sex: "male"
+      sessions:
+        session_1:
+          state: "fed"
+          phase: "exploration"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/2_28_24/NPX2_2_28_24_2Rght_LHA_RSP_EXP_g0/NPX2_2_28_24_2Rght_LHA_RSP_EXP_g0_imec0/NPX2_2_28_24_2Rght_LHA_RSP_EXP_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/2_28_24/NPX2_2_28_24_2Rght_LHA_RSP_EXP_g0/results_KS3/sorter_output"
+          behavior: "G:/NPX2 USABLE DATA/M1-COOR1/Behavior/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     1.csv"
+
+        session_2:
+          state: "fed"
+          phase: "foraging"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/2_28_24/NPX2_3_6_24_2Rght_LHA_RSP_just_FOR_g0/NPX2_3_6_24_2Rght_LHA_RSP_just_FOR_g0_imec0/NPX2_3_6_24_2Rght_LHA_RSP_just_FOR_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/2_28_24/NPX2_3_6_24_2Rght_LHA_RSP_just_FOR_g0/results_KS3/sorter_output"
+          behavior: "H:/Jimmy/Jimmy-Behav Data/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     2.csv"
+
+        session_3:
+          state: "fed"
+          phase: "exploration"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/3_11_24/NPX2_3_11_24_LHA_RSP_EXP_g0/NPX2_3_11_24_LHA_RSP_EXP_g0_imec0/NPX2_3_11_24_LHA_RSP_EXP_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/3_11_24/NPX2_3_11_24_LHA_RSP_EXP_g0/results_KS3_trimmed_1/sorter_output"
+          behavior: "H:/Jimmy/Jimmy-Behav Data/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     3.csv"
+
+        session_4:
+          state: "fed"
+          phase: "foraging"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/3_11_24/NPX2_3_11_24_RSP_LHA_FOR_REAL_g0/NPX2_3_11_24_RSP_LHA_FOR_REAL_g0_imec0/NPX2_3_11_24_RSP_LHA_FOR_REAL_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/3_11_24/NPX2_3_11_24_RSP_LHA_FOR_REAL_g0/results_KS3_trimmed/sorter_output"
+          behavior: "H:/Jimmy/Jimmy-Behav Data/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     4.csv"
+
+        session_5:
+          state: "fasted"
+          phase: "exploration"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/4_19_24/NPX2_24_fasted_4_19_24_EXP_g0/NPX2_24_fasted_4_19_24_EXP_g0_imec0/NPX2_24_fasted_4_19_24_EXP_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/4_19_24/NPX2_24_fasted_4_19_24_EXP_g0/results_KS3_New/sorter_output"
+          behavior: "H:/Jimmy/Jimmy-Behav Data/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     5.csv"
+
+        session_6:
+          state: "fasted"
+          phase: "foraging"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/4_19_24/NPX2_24_fasted_4_19_24_FOR_g0/NPX2_24_fasted_4_19_24_FOR_g0_imec0/NPX2_24_fasted_4_19_24_FOR_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/4_19_24/NPX2_24_fasted_4_19_24_FOR_g0/results_KS3_New/sorter_output"
+          behavior: "H:/Jimmy/Jimmy-Behav Data/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     6.csv"
+
+        session_7:
+          state: "fasted"
+          phase: "exploration"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/4_26_24/NPX2_24_fasted_4_26_24_EXP_g0/NPX2_24_fasted_4_126_24_EXP_g0_imec0/NPX2_24_fasted_4_126_24_EXP_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/4_26_24/NPX2_24_fasted_4_26_24_EXP_g0/results_KS3_trimmed/sorter_output"
+          behavior: "H:/Jimmy/Jimmy-Behav Data/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     7.csv"
+
+        session_8:
+          state: "fasted"
+          phase: "foraging"
+          raw: "G:/NPX2 USABLE DATA/M1-COOR1/4_26_24/NPX2_24_fasted_4_26_24_FOR_g0/NPX2_24_fasted_4_126_24_FOR_g0_imec0/NPX2_24_fasted_4_126_24_FOR_g0_t0.imec0.ap.bin"
+          sorted: "G:/NPX2 USABLE DATA/M1-COOR1/4_26_24/NPX2_24_fasted_4_26_24_FOR_g0/results_KS3_trimmed/sorter_output"
+          behavior: "H:/Jimmy/Jimmy-Behav Data/REDO_COOR1_M1/100_ms_Binned/100ms_behavior_binned_Raw data-COOR1_M1_NPX2_Redo-Trial     8.csv"
+
+    mouse02:
+      sex: "female"
+      sessions:
+        session_1:
+          state: "fed"
+          phase: "exploration"
+          raw: "G:/1_2_25/NPX2_NewMouse_1_2_25_COOR1_Female_EXP_g0/NPX2_NewMouse_1_2_25_COOR1_Female_EXP_g0_imec0/NPX2_NewMouse_1_2_25_COOR1_Female_EXP_g0_t0.imec0.ap.bin"
+          sorted: "G:/1_2_25/NPX2_NewMouse_1_2_25_COOR1_Female_EXP_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_2:
+          state: "fed"
+          phase: "foraging"
+          raw: "G:/1_2_25/NPX2_NewMouse_1_2_25_COOR1_Female_FOR_g0/NPX2_NewMouse_1_2_25_COOR1_Female_FOR_g0_imec0/NPX2_NewMouse_1_2_25_COOR1_Female_FOR_g0_t0.imec0.ap.bin"
+          sorted: "G:/1_2_25/NPX2_NewMouse_1_2_25_COOR1_Female_FOR_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_3:
+          state: "fed"
+          phase: "exploration"
+          raw: "H:/Neuropixels Data/M2-COOR1/1_6_2025_COOR1/NPX2_NewMouse_1_6_25_NewCOOR1_Female_EXP_g0/NPX2_NewMouse_1_6_25_NewCOOR1_Female_EXP_g0_imec0/NPX2_NewMouse_1_6_25_NewCOOR1_Female_EXP_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M2-COOR1/1_6_2025_COOR1/NPX2_NewMouse_1_6_25_NewCOOR1_Female_EXP_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_4:
+          state: "fed"
+          phase: "foraging"
+          raw: "H:/Neuropixels Data/M2-COOR1/1_6_2025_COOR1/NPX2_NewMouse_1_6_25_NewCOOR1_Female_FOR_g0/NPX2_NewMouse_1_6_25_NewCOOR1_Female_FOR_g0_imec0/NPX2_NewMouse_1_6_25_NewCOOR1_Female_FOR_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M2-COOR1/1_6_2025_COOR1/NPX2_NewMouse_1_6_25_NewCOOR1_Female_FOR_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+  coordinates_2:
+    mouse01:
+      sex: "male"
+      sessions:
+        session_1:
+          state: "fed"
+          phase: "exploration"
+          raw: "H:/Neuropixels Data/M1-COOR2/1_3_2025_COOR2/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_EXP_g0/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_EXP_g0_imec0/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_EXP_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M1-COOR2/1_3_2025_COOR2/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_EXP_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_2:
+          state: "fed"
+          phase: "foraging"
+          raw: "H:/Neuropixels Data/M1-COOR2/1_3_2025_COOR2/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_FOR_g0/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_FOR_g0_imec0/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_FOR_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M1-COOR2/1_3_2025_COOR2/NPX2_NewMouse_1_3_25_COOR2_Diff_than_last_mouse_Male_FOR_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_3:
+          state: "fed"
+          phase: "exploration"
+          raw: "H:/Neuropixels Data/M1-COOR2/1_7_2025_COOR2/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_EXP_g0/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_EXP_g0_imec0/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_EXP_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M1-COOR2/1_7_2025_COOR2/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_EXP_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_4:
+          state: "fed"
+          phase: "foraging"
+          raw: "H:/Neuropixels Data/M1-COOR2/1_7_2025_COOR2/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_FOR_g0/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_FOR_g0_imec0/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_FOR_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M1-COOR2/1_7_2025_COOR2/NPX2_NewMouse_1_7_25_NewCOOR2_DiffThanLastMice_Male_FOR_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_5:
+          state: "fed"
+          phase: "exploration"
+          raw: "H:/Neuropixels Data/M1-COOR2/1_10_25_COOR2/NPX2_NewMouse_1_10_25_NewCOOR2_Male_EXP_g0/NPX2_NewMouse_1_10_25_NewCOOR2_Male_EXP_g0_imec0/NPX2_NewMouse_1_10_25_NewCOOR2_Male_EXP_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M1-COOR2/1_10_25_COOR2/NPX2_NewMouse_1_10_25_NewCOOR2_Male_EXP_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+        session_6:
+          state: "fed"
+          phase: "foraging"
+          raw: "H:/Neuropixels Data/M1-COOR2/1_10_25_COOR2/NPX2_NewMouse_1_10_25_NewCOOR2_Male_FOR_g0/NPX2_NewMouse_1_10_25_NewCOOR2_Male_FOR_g0_imec0/NPX2_NewMouse_1_10_25_NewCOOR2_Male_FOR_g0_t0.imec0.ap.bin"
+          sorted: "H:/Neuropixels Data/M1-COOR2/1_10_25_COOR2/NPX2_NewMouse_1_10_25_NewCOOR2_Male_FOR_g0/results_KS3_trimmed/sorter_output"
+          behavior: null  # pending
+
+# -----------------------------------------------------------------------------
+# DOUBLE PROBE: Two Neuropixels 2.0 probes — ACA (imec0) + LHA/RSP (imec1)
+# -----------------------------------------------------------------------------
+double_probe:
+  coordinates_1:
+    mouse01:
+      sessions:
+        session_1:
+          state: "fed"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_12_25_DOUBLE/Double_probe_ACA_RSP_LHA_EXP_REAL_g0/Double_probe_ACA_RSP_LHA_EXP_REAL_g0_imec1/Double_probe_ACA_RSP_LHA_EXP_REAL_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_12_25_DOUBLE/Double_probe_ACA_RSP_LHA_EXP_REAL_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_12_25_DOUBLE/Double_probe_ACA_RSP_LHA_EXP_REAL_g0/Double_probe_ACA_RSP_LHA_EXP_REAL_g0_imec0/Double_probe_ACA_RSP_LHA_EXP_REAL_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_12_25_DOUBLE/Double_probe_ACA_RSP_LHA_EXP_REAL_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: null  # pending
+
+        session_2:
+          state: "fed"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: null  # pending
+            sorted: null  # pending
+          probe_0_aca:
+            raw: null  # pending
+            sorted: null  # pending
+          behavior: null  # pending
+
+        session_3:
+          state: "fed"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_EXP_g0/DOUBLE_PROBE_6_17_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_EXP_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_EXP_g0/DOUBLE_PROBE_6_17_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_EXP_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    23.xlsx"
+
+        session_4:
+          state: "fed"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_FOR_g0/DOUBLE_PROBE_6_17_25_FOR_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_FOR_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_FOR_g0/DOUBLE_PROBE_6_17_25_FOR_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_17_25_DOUBLE/DOUBLE_PROBE_6_17_25_FOR_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    24.xlsx"
+
+        session_5:
+          state: "fed"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_EXP_g0/DOUBLE_PROBE_6_24_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_EXP_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_EXP_g0/DOUBLE_PROBE_6_24_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_EXP_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    26.xlsx"
+
+        session_6:
+          state: "fed"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_FOR_g0/DOUBLE_PROBE_6_24_25_FOR_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_FOR_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_FOR_g0/DOUBLE_PROBE_6_24_25_FOR_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_24_25_DOUBLE/DOUBLE_PROBE_6_24_25_FOR_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    27.xlsx"
+
+        session_7:
+          state: "fed"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_EXP_g0/DOUBLE_PROBE_6_30_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_EXP_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_EXP_g0/DOUBLE_PROBE_6_30_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_EXP_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    29.xlsx"
+
+        session_8:
+          state: "fed"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_FOR_g0/DOUBLE_PROBE_6_30_25_FOR_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_FOR_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_FOR_g0/DOUBLE_PROBE_6_30_25_FOR_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/6_30_25_DOUBLE/DOUBLE_PROBE_6_30_25_FOR_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    30.xlsx"
+
+        session_9:
+          state: "fed"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_EXP_g0/DOUBLE_PROBE_7_4_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_EXP_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_EXP_g0/DOUBLE_PROBE_7_4_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_EXP_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    32.xlsx"
+
+        session_10:
+          state: "fed"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_FOR_g0/DOUBLE_PROBE_7_4_25_FOR_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_FOR_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_FOR_g0/DOUBLE_PROBE_7_4_25_FOR_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FED/7_4_25_DOUBLE/DOUBLE_PROBE_7_4_25_FOR_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    33.xlsx"
+
+        # --- FASTED SESSIONS (dual-probe) ---
+        session_11:
+          state: "fasted"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_EXP_g0/DOUBLE_PROBE_7_11_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_EXP_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_EXP_g0/DOUBLE_PROBE_7_11_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_EXP_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    35.xlsx"
+
+        session_12:
+          state: "fasted"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_FOR_g0/DOUBLE_PROBE_7_11_25_FOR_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_FOR_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_FOR_g0/DOUBLE_PROBE_7_11_25_FOR_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_11_25_DOUBLE_FASTED/DOUBLE_PROBE_7_11_25_FOR_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    36.xlsx"
+
+        session_13:
+          state: "fasted"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_EXP_g0/DOUBLE_PROBE_7_17_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_EXP_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_EXP_g0/DOUBLE_PROBE_7_17_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_EXP_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    38.xlsx"
+
+        session_14:
+          state: "fasted"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_FOR_real_g0/DOUBLE_PROBE_7_17_25_FOR_real_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_FOR_real_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_FOR_real_g0/DOUBLE_PROBE_7_17_25_FOR_real_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_17_25_DOUBLE_FASTED/DOUBLE_PROBE_7_17_25_FOR_real_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    39.xlsx"
+
+        session_15:
+          state: "fasted"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_EXP_g0/DOUBLE_PROBE_7_25_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_EXP_g0/results_KS4_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_EXP_g0/DOUBLE_PROBE_7_25_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_EXP_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    41.xlsx"
+
+        session_16:
+          state: "fasted"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_FOR_g0/DOUBLE_PROBE_7_25_25_FOR_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_FOR_g0/results_KS4_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_FOR_g0/DOUBLE_PROBE_7_25_25_FOR_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_25_25_DOUBLE_FASTED/DOUBLE_PROBE_7_25_25_FOR_g0/results_KS4_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    42.xlsx"
+
+        session_17:
+          state: "fasted"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_30_25_DOUBLE_FASTED/DOUBLE_PROBE_7_30_25_EXP_g0/DOUBLE_PROBE_7_30_25_EXP_g0_t0.imec1.ap.bin"
+            sorted: null  # not yet sorted
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_30_25_DOUBLE_FASTED/DOUBLE_PROBE_7_30_25_EXP_g0/DOUBLE_PROBE_7_30_25_EXP_g0_t0.imec0.ap.bin"
+            sorted: null  # not yet sorted
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    44.xlsx"
+
+        session_18:
+          state: "fasted"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_30_25_DOUBLE_FASTED/DOUBLE_PROBE_7_30_25_FOR_g0/DOUBLE_PROBE_7_30_25_FOR_g0_t0.imec1.ap.bin"
+            sorted: null  # not yet sorted
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_FASTED/7_30_25_DOUBLE_FASTED/DOUBLE_PROBE_7_30_25_FOR_g0/DOUBLE_PROBE_7_30_25_FOR_g0_t0.imec0.ap.bin"
+            sorted: null  # not yet sorted
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    45.xlsx"
+
+        # --- FED_HIGH-FAT DIET SESSIONS (dual-probe) ---
+        session_19:
+          state: "fed-HFD"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_EXP_HFD_g0/DOUBLE_PROBE_8_18_25_EXP_HFD_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_EXP_HFD_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_EXP_HFD_g0/DOUBLE_PROBE_8_18_25_EXP_HFD_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_EXP_HFD_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    47.xlsx"
+
+        session_20:
+          state: "fed-HFD"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_FOR_HFD_g0/DOUBLE_PROBE_8_18_25_FOR_HFD_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_FOR_HFD_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_FOR_HFD_g0/DOUBLE_PROBE_8_18_25_FOR_HFD_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_18_25_DOUBLE_HFD/DOUBLE_PROBE_8_18_25_FOR_HFD_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    48.xlsx"
+
+        session_21:
+          state: "fed-HFD"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_EXP_HFD_g0/DOUBLE_PROBE_8_29_25_EXP_HFD_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_EXP_HFD_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_EXP_HFD_g0/DOUBLE_PROBE_8_29_25_EXP_HFD_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_EXP_HFD_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    50.xlsx"
+
+        session_22:
+          state: "fed-HFD"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_FOR_HFD_g0/DOUBLE_PROBE_8_29_25_FOR_HFD_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_FOR_HFD_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_FOR_HFD_g0/DOUBLE_PROBE_8_29_25_FOR_HFD_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/8_29_25_DOUBLE_HFD/DOUBLE_PROBE_8_29_25_FOR_HFD_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    51.xlsx"
+
+        session_23:
+          state: "fed-HFD"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_EXP_HFD_NEW_PARADIGM_g0/DOUBLE_PROBE_9_11_25_EXP_HFD_NEW_PARADIGM_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_EXP_HFD_NEW_PARADIGM_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_EXP_HFD_NEW_PARADIGM_g0/DOUBLE_PROBE_9_11_25_EXP_HFD_NEW_PARADIGM_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_EXP_HFD_NEW_PARADIGM_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    52.xlsx"
+
+        session_24:
+          state: "fed-HFD"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_FOR_HFD_NEW_PARADIGM_g0/DOUBLE_PROBE_9_11_25_FOR_HFD_NEW_PARADIGM_g0_t0.imec1.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_FOR_HFD_NEW_PARADIGM_g0/results_KS3_trimmed_probe1/sorter_output"
+          probe_0_aca:
+            raw: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_FOR_HFD_NEW_PARADIGM_g0/DOUBLE_PROBE_9_11_25_FOR_HFD_NEW_PARADIGM_g0_t0.imec0.ap.bin"
+            sorted: "H:/Neuropixels Data/DOUBLE_Probe/DOUBLE_HFD/9-11-25_HFD_NEW_PARADIGM/DOUBLE_PROBE_9_11_25_FOR_HFD_NEW_PARADIGM_g0/results_KS3_trimmed_probe0/sorter_output"
+          behavior: "H:/NPX ANALYSIS REPO/DOUBLE-BEHAV data/Double- Behav data/Raw data-Jimmy Cam3 3-20-25-Trial    53.xlsx"
+
+        # --- FASTED HIGH-FAT DIET SESSIONS (dual-probe) ---
+        session_25:
+          state: "fasted-HFD"
+          phase: "exploration"
+          probe_1_lha_rsp:
+            raw: null  # pending
+            sorted: 
+          probe_0_aca:
+            raw: null  # pending
+            sorted: 
+          behavior: null  # pending
+
+        session_26:
+          state: "fasted-HFD"
+          phase: "foraging"
+          probe_1_lha_rsp:
+            raw: null  # pending
+            sorted: 
+          probe_0_aca:
+            raw: null  # pending
+            sorted: 
+          behavior: null  # pending
+
+
+        

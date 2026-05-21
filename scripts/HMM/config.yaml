@@ -1,0 +1,145 @@
+paths_yaml: paths.yaml
+sessions:
+  fed:
+  - 4
+  - 6
+  - 8
+  - 10
+  fasted:
+  - 12
+  - 14
+  - 16
+raw_bin_ms: 40
+target_bin_ms: 480
+bin_factor: 12
+random_seed: 20260429
+continuous_columns:
+  speed: Velocity(Center-point)
+distance_pot_columns:
+- Distance to zone(Pot-1 / Center-point)
+- Distance to zone(Pot-2 / Center-point)
+- Distance to zone(Pot-3 / Center-point)
+- Distance to zone(Pot-4 / Center-point)
+event_columns:
+  incomplete_home_returns: Incomplete home returns
+  quick_loop_at_home: Quick one loop at home
+  digging_sand: Digging sand
+  feeding: Feeding
+  rearing: Rearing
+  exploration_at_transition: Transition wall exploration
+  contemplation_at_transition: Contemplation at T-zone looking at Home
+zone_priority:
+  home:
+  - Zone(Home / any of Center-point, Nose-point)
+  transition:
+  - Zone(Transition Zone / any of Center-point, Nose-point)
+  pot:
+  - Zone(Pot-1 / any of Center-point, Nose-point)
+  - Zone(Pot-2 / any of Center-point, Nose-point)
+  - Zone(Pot-3 / any of Center-point, Nose-point)
+  - Zone(Pot-4 / any of Center-point, Nose-point)
+  pot_zone:
+  - Zone(Pot-1 zone / any of Center-point, Nose-point)
+  - Zone(Pot-2 Zone / any of Center-point, Nose-point)
+  - Zone(Pot-3 zone / any of Center-point, Nose-point)
+  - Zone(Pot-4 zone / any of Center-point, Nose-point)
+  arena:
+  - Zone(Foraging arena / any of Center-point, Nose-point)
+  other: []
+cv_folds: 3
+N_range:
+- 4
+- 6
+- 8
+- 10
+- 12
+- 14
+selected_N: 12
+hmm_observations: diagonal_gaussian
+hmm_method: em
+hmm_n_iters: 200
+hmm_tolerance: 0.0001
+binary_jitter_sigma: 0.05
+continuous_jitter_sigma: 0.0
+out_dirs:
+  binned: data/HMM/binned
+  prepared: data/HMM/prepared
+  cv_results: data/HMM/cv_results.csv
+  final_model: data/HMM/final_model.pkl
+  final_params: data/HMM/final_model_params
+  posteriors: data/HMM/posteriors
+  fed_vs_fasted_csv: data/HMM/fed_vs_fasted.csv
+  state_selection_fig: figures/HMM/state_selection.png
+  state_profiles_fig: figures/HMM/state_profiles.png
+  timeline_fig_dir: figures/HMM/timelines
+  fed_vs_fasted_fig: figures/HMM/fed_vs_fasted.png
+xlsx_sheet: Track-Full Arena-Subject 1
+xlsx_header_row: 34
+xlsx_skip_rows:
+- 35
+
+# ---- dynamax (proper mixed-emission refit) ----
+dynamax_dirs:
+  prepared: data/HMM/prepared_dynamax
+  cv_results: data/HMM/cv_results_dynamax.csv
+  final_model: data/HMM/final_model_dynamax.npz
+  final_params: data/HMM/final_model_params_dynamax
+  posteriors: data/HMM/posteriors_dynamax
+  state_profiles_csv: data/HMM/state_profiles_dynamax.csv
+  state_dwell_occupancy_csv: data/HMM/state_dwell_occupancy_dynamax.csv
+  fed_vs_fasted_csv: data/HMM/fed_vs_fasted_dynamax.csv
+  fed_vs_fasted_transitions_csv: data/HMM/fed_vs_fasted_transitions_dynamax.csv
+  fed_vs_fasted_stats_csv: data/HMM/fed_vs_fasted_stats_dynamax.csv
+  state_selection_fig: figures/HMM/state_selection_dynamax.png
+  state_profiles_fig: figures/HMM/state_profiles_dynamax.png
+  timeline_fig_dir: figures/HMM/timelines_dynamax
+  fed_vs_fasted_fig: figures/HMM/fed_vs_fasted_dynamax.png
+  fed_vs_fasted_transitions_fig: figures/HMM/fed_vs_fasted_transitions_dynamax.png
+dynamax_N_range:
+- 4
+- 6
+- 8
+- 10
+- 12
+- 14
+- 16
+- 18
+- 20
+dynamax_n_inits: 5
+dynamax_em_max_iters: 500
+dynamax_em_tol: 0.0001
+dynamax_var_floor: 0.001
+dynamax_zone_dirichlet: 1.0
+dynamax_event_beta: 0.5
+dynamax_selected_N: 16     # CV-selected (1-SE rule, 2026-05-05)
+merge_cosine_threshold: 0.90
+
+# ---- commitment-marker extraction (script 09) ----
+# Food pot per session (1-indexed, matches pot_id encoding in binned npz).
+# null = no food in this session (e.g., S10 extinction/probe).
+food_pot_per_session:
+  4: 4
+  6: 4
+  8: 3
+  10: null
+  12: 4
+  14: 3
+  16: 3
+discovery_window_s: 10.0         # seconds: dig is "discovery" if feeding follows within this
+feeding_state_min_prob: 0.9      # P(feeding) threshold to identify pure-feeding states
+digging_state_min_prob: 0.9      # P(digging_sand) threshold for pure-digging states
+contemplation_event_min_prob: 0.15  # P(contemplation_at_transition) or P(exploration_at_transition)
+pot_zone_state_min_prob: 0.5     # zone_pot + zone_pot_zone threshold for pot-zone states
+commitment_dirs:
+  out: data/HMM/commitment_markers
+  fig: figures/HMM/commitment_markers
+merge_dirs:
+  params: data/HMM/merged_model_params_dynamax
+  posteriors: data/HMM/merged_posteriors_dynamax
+  state_profiles_csv: data/HMM/merged_state_profiles_dynamax.csv
+  merge_log_csv: data/HMM/merge_log_dynamax.csv
+  fed_vs_fasted_csv: data/HMM/merged_fed_vs_fasted_dynamax.csv
+  fed_vs_fasted_stats_csv: data/HMM/merged_fed_vs_fasted_stats_dynamax.csv
+  state_profiles_fig: figures/HMM/merged_state_profiles_dynamax.png
+  timeline_fig_dir: figures/HMM/merged_timelines_dynamax
+  fed_vs_fasted_fig: figures/HMM/merged_fed_vs_fasted_dynamax.png
