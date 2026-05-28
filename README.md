@@ -12,7 +12,7 @@ Single probe (Neuropixels 2.0, targeting LHA + RSP):
 
 Dual probe (two Neuropixels 2.0):
 - imec0: ACA
-- imec1: LHA + RSP
+- imec1: LHA + ACA
 - Coordinates-1: Mouse01 (24 sessions, fed / fasted / HFD)
 
 Each session: raw `.ap.bin`, Kilosort 3 or 4 sorted output, EthoVision tracking (120 or 100 ms bins).
